@@ -331,16 +331,3 @@ st.markdown(
 # --------------------------------------------------
 model = pickle.load(open("fish_model.pkl", "rb"))
 model_columns = pickle.load(open("model_columns.pkl", "rb"))
-
-# --------------------------------------------------
-# TITLE
-# --------------------------------------------------
-st.markdown(
-    """
-    <div style='text-align:center; margin-bottom:30px; color:white;'>
-        <h1>🐟 Fish Weight Prediction</h1>
-        <h4>AI Powered Biomass Estimator</h4>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
